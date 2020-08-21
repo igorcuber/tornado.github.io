@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.page{
+    background-image: url(/imagem/nikolas-noonan-n_3kdpSkrJo-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+ li {
+    margin-right: 20px;
+}
+
+.titulo-tornado {
+    user-select: none;
+}
+
+
+section {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 30vh ;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+a:hover {
+    color: rgb(177, 177, 177);
+}
+
+.lista a:hover {
+    border-bottom: 2px solid rgb(177, 177, 177);
+    transition: 0.3s;
+}
